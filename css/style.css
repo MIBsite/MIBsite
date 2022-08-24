@@ -1,0 +1,506 @@
+/* ----------------------------- CSS Reset start ---------------------------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ----------------------------- CSS Reset ends ----------------------------- */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+html {
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.jumbotron {
+    font-size: 30vw;
+}
+
+
+.jumbotron-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.089em;
+    font-size: 7rem;
+    color: white;
+    opacity: 80%;
+}
+
+.jumbotron-title-event {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.089em;
+    font-size: 6rem;
+    color: white;
+    opacity: 80%;
+}
+
+.jumbotron-title-event-secondary {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.08em;
+    font-size: 4rem;
+    color: white;
+    opacity: 80%;
+}
+
+.jumbotron-title-faq {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.07em;
+    font-size: 2.4rem;
+    color: white;
+    opacity: 80%;
+}
+
+.jumbotron-title-faq-pupa {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.07em;
+    font-size: 2.4rem;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 0.5em;
+}
+
+.jumbotron-title-faq-little {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.089em;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    opacity: 40%;
+    margin-bottom: 0.5em;
+}
+
+.jumbotron-title:hover {
+    opacity: 100%;
+}
+
+.jumbotron-title-faq:hover {
+    opacity: 100%;
+}
+
+.jumbotron-title-faq-little:hover {
+    opacity: 100%;
+}
+
+.jumbotron-desc {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.7rem;
+    margin-top: -0.2em;
+    color: white;
+    opacity: 60%;
+}
+
+.jumbotron-desc-bold {
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: end;
+    margin-bottom: 2em;
+}
+
+.main {
+    padding: 1vh 1vh;
+}
+
+
+.navbar-item {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.87em;
+    margin: auto 1em;
+    color: white;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.navbar-item:hover {
+    opacity: 100%;
+}
+
+
+.description-content {
+    background-color: #00000039;
+    color: white;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 8em 15vw 0 15vw;
+    padding: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Playfair Display', serif;
+}
+
+.italicize {
+    font-style: italic;
+
+}
+
+.bold {
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.stand-for {
+    background-color: #00000039;
+    color: white;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 2em 15vw;
+    padding: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+}
+
+.stand-for-title {
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: -0.06em;
+}
+
+.stand-for-desc {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+.stand-for-desc-item {
+    padding-top: 0.3em;
+    font-size: 1.25em;
+    opacity: 80%;
+}
+
+.stand-for-desc-item:hover {
+    opacity: 100%;
+    font-weight: 700;
+}
+
+.about-us {
+    background-color: #00000039;
+    color: white;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 2em 15vw;
+    padding: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-us-title {
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: -0.06em;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-us-subsection-title {
+    padding-top: 1em;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: -0.06em;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-us-desc {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: 'Playfair Display', serif;
+    opacity: 80%;
+}
+
+.about-us-subsection-desc {
+    padding-top: 1em;
+    padding-left: 2em;
+    font-family: 'Playfair Display', serif;
+    opacity: 80%;
+}
+
+.about-us-subsection-desc:hover {
+    opacity: 100%;
+}
+
+.events-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #00000039;
+    color: white;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 2em 20vw;
+    padding: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+}
+
+.jumbotron-title-events {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6em;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    margin-bottom: 0.5em;
+    margin-top: -0.5em;
+    text-transform: uppercase;
+}
+
+.event-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #0000005d;
+    color: white;
+    opacity: 100%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 1em;
+    padding: 1.2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+}
+
+.event-section:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000a9;
+    color: white;
+    opacity: 100%;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    margin: 1em;
+    padding: 1.2em;
+    line-height: 1.3em;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif;
+    width: 50%;
+}
+
+
+.event-section-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: -0.04em;
+    color: #ffffff !important;
+    opacity: 50%;
+    font-family: 'Inter', sans-serif;
+}
+
+.event-section-title-year {
+    margin-top: 0.1em;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: -0.04em;
+    color: #ffffff !important;
+    opacity: 30%;
+    font-family: 'Inter', sans-serif;
+}
+
+.event-section-title:hover {
+    opacity: 100%;
+}
+
+.event-section-button {
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 0.5em;
+    margin-top: 0.7em;
+    background-color: #000000;
+    opacity: 70%;
+    width: fit-content;
+}
+
+.event-section-button:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.event-row {
+    display: flex;
+    flex-direction: row;
+}
